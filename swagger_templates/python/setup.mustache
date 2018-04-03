@@ -36,7 +36,7 @@ setup(
     include_package_data=True,
     long_description="""\
 {{appDescription}}
-""".replace('PKG_NAME', NAME)
+""".replace('PKG_NAME', NAME.replace('-', '_'))
 )
 {{/hasMore}}
 {{/apis}}
